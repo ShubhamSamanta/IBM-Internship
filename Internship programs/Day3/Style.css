@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding-left: 0vw;
+}
+#PIC{
+    margin: 10;
+    padding :0;
+    width: 10vm;
+    height: 70vh;
+    padding-left: 25vw;
+   /* border: 4px solid rgb(0, 0, 0);*/
+}
+#TL{
+    margin: 10px;
+    padding-left: 5vw;
+  /*  border: 4px solid rgb(238, 255, 0);*/
+    font-size: 18px;
+    text-align: center left;
+}
+#fig{
+    padding: 2px;
+    text-align: center;
+}
+.box{
+   /* border: 5px solid green;*/
+    line-height: 2px;
+}
+#com{
+    padding-left: 1vw;
+}
+/*
+h1::before{
+    content: url(https://image.freepik.com/free-vector/stylish-wavy-indian-flag-theme-background_1055-7109.jpg);
+}*/

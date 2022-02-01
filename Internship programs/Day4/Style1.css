@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: silver;
+}
+.box{
+    max-width:80vw ;
+    min-height:50vh;
+    background-color: aqua;
+    border-width: 4px;
+    border-color: red;
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    border-radius: 10px;
+    
+    margin: 15px 150px 15px 150px ;
+    padding: 50px 60px;
+}
+p{
+    background-color:white;
+}
+
+

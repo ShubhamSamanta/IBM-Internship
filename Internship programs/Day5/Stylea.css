@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    box-sizing: border-box;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: rgb(170, 17, 17);*/
+    background-image: linear-gradient(to bottom left, rgb(99, 4, 4), rgb(146, 77, 65));
+    border: 4px solid rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#BB{/*
+    margin-top: 45vh;
+    margin-left: 10vw;*/
+    margin-top: 42.5vh;
+    width: 70vw;
+    height: 15vh;
+    background-color: rgb(37, 37, 37);
+    border: 2px solid rgb(247, 244, 244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-flow: row wrap;*/
+}
+
+.little-box{
+    padding-top: 1.5vh;
+    height: 7.5vh;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    /*border: 2px solid rgb(247, 244, 244);*/
+
+}
+
+#SL{
+    margin-right: 4vw;
+}
+#Red{
+    color: rgb(196, 82, 62);
+}
+
+.pp{
+    color: rgb(43, 42, 42);
+    font-style: italic;
+    margin-top: 1vh;
+    height: 3vh;
+    
+}
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: silver;
+}
+
+.box{
+    margin: 5vh;
+    padding: 0;
+    max-width:100vw ;
+    min-height:100vh;
+    background-color: rgb(46, 72, 156);
+    border: 4px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.little-box{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/close-up-of-cat-wearing-sunglasses-while-sitting-royalty-free-image-1571755145.jpg?crop=0.670xw:1.00xh;0.147xw,0&resize=980:*);
+    background-size: cover;
+    font-size: 2rem;
+    font-weight: bolderr;
+}
+*/
+

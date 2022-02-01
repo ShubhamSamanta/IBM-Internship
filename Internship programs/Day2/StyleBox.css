@@ -1,0 +1,12 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(214, 169, 20, 0.925);
+    font-size: 4rem;
+  }
+  .inner-box {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(136, 14, 95);
+    font-size: 0.5em;
+  }
