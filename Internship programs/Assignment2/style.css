@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 23%, 69%);
+}
+#heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+#Box{
+    margin-top: 10vh;
+    margin-left: 25vw;
+    left: 25%;
+    /* border: 4px solid blue; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+
+}
+#Task{
+    font-size: 25px;
+    font-weight: bold;
+    
+    background-color: hsl(210, 46%, 95%);
+    padding-top: 30px;
+}
+.bin{
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* border: 4px solid yellow; */
+    background-color: hsl(217, 19%, 35%);
+    width: 40px;
+    height: 40px ;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/52-512.png");
+    background-position: center;
+    background-size: cover;
+}
+li{
+    color: white;
+    margin-bottom: 30px;
+    /* border: 4px solid black; */
+    font-size: 40px;
+    background-color: hsl(217, 19%, 35%);
+    font-weight: bold;
+    position: relative;
+}
+
+
+#Enter{
+    width: 50vw;
+    height: 5vh;
+    border: 4px solid hsl(212, 96%, 19%);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+
+}
+#Entered{
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+#btn{
+    color: white;
+    background-color: hsl(212, 96%, 19%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*_______________________Mobile_________________________*/
+@media (max-width: 480px)
+{
+    #heading{
+        display: block ;
+        text-align: center;
+        font-weight: bold;
+        font-size: 200px;
+    }
+    #Task{
+        font-size: 50px;
+    font-weight: bold;
+    width: 100vw;
+    background-color: hsl(210, 46%, 95%);
+    padding-top: 10px;
+}
+    
+    #Box{
+        margin-top: 5;
+        margin-left: 0;
+        left: 0%;
+        /* border: 4px solid blue; */
+        width: 100vw;
+    }
+    #Enter{
+        width: 100vw;
+        height: 20vh;
+    }
+}
+
