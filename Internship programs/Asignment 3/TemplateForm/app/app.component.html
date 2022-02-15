@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./app.component.css">
+  <title>Assignment 3</title>
+</head>
+<body>
+  <!-- <img src="/TemplateForm/src/assets/images/bg-intro-mobile.png" alt=""> -->
+  <div class="mainBox1" id="">
+    <div id="box11" > Learn to code by watching others </div>
+    <div id="box12" >See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</div>
+  </div>
+
+
+  <div class="mainBox2" id="">
+    <div id="box21"><span id="try"> Try it free 7 days</span> then $20/mo. thereafter</div>
+
+    <div id="box22">
+      <div>
+        <form #login="ngForm" (ngSubmit)="signin(login.value)">
+          <input class="form-control form-control-lg space"ngModel type="text" name="fname" placeholder="First Name">
+          <input class="form-control form-control-lg space"ngModel type="text" name="lanem" placeholder="Last Name">
+          <input class="form-control form-control-lg space"ngModel type="text" name="email" placeholder="Email Address">
+          <input class="form-control form-control-lg space"ngModel type="password" name="pass" placeholder="Password">
+          <button type="submit" id="sub">CLAIM YOUR FREE TRIAL</button>
+        </form>
+      </div>
+
+      <div id="tac">By clicking the button, you are agreeing to our <span id="ts">Terms and Services</span></div>
+    </div>
+  </div>
+
+
+
+
+<script src="./app.component.ts"></script>
+</body> 
+ </html>

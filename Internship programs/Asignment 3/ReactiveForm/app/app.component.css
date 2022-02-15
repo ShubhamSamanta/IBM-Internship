@@ -1,0 +1,217 @@
+@media only screen and (min-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    head{
+        /* border: 5px solid black; */
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        /* background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"); */
+        background-image: url("../assets/images/bg-intro-desktop.png");
+        background-position: center;
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+        margin-top: 0;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        padding: 10vh 10vw;
+    }
+    .mainBox1{
+        /* border: 5px solid black; */
+        color: white;
+        /* border: 5px solid black; */
+    }
+    #box11{
+        padding-right: 10vw;
+        margin-bottom: 10px;
+        font-weight: bolder;
+        font-weight: bolder;
+        font-size: 3rem;
+        line-height: 60px;
+    }
+    #box12{
+        font-size: 20px;
+        padding: 5px; 
+        /* border: 5px solid red; */
+    }
+    /*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    /*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    /*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    /*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    .mainBox2{
+        height: 75vh;
+        display: grid;
+        /* justify-content: center; */
+        grid-template-rows: 1fr 1 fr;
+    }
+    
+    #box21{
+        color: white;
+        text-align: center;
+        justify-content: center;
+        background-color: hsl(248, 32%, 49%);
+        font-weight:10;
+        border-radius: 20px;
+        height: 8vh;
+        padding-top: 15px; ;
+        /* margin-bottom: 2vh; */
+        box-shadow: 0px 8px lightgray;
+        margin-bottom: 30px;
+    }
+    #try{
+        font-weight:900;
+        font-size: 18px;
+        /* color: aquamarine; */
+        /* font-size: 25px; */
+    }  
+    #box22{
+        box-shadow: 0px 8px lightgray;
+        height: 65vh;
+        background-color: white;
+        border-radius: 15px;
+        /* border: 5px solid black; */
+        padding: 2vw;
+    }
+    .space{
+        margin-bottom: 3vh;
+        height: 8vh;
+        padding-left: 2vw;
+    }
+    #sub{
+        color: white;
+        background-color: hsl(154, 59%, 51%);
+        border: 3px solid hsl(154, 58%, 36%) ;
+        width: 100%;
+        height: 8vh ;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    
+    #tac{
+        font-size: 14px;
+        color: hsl(246, 25%, 77%);
+        text-align: center;
+        /* border: 5px solid aqua; */
+    }
+    #ts{
+        font-weight: 700;
+        color: hsl(0, 100%, 74%);
+    }
+    
+    }
+    
+    /*iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii*/
+    @media only screen and (max-width: 600px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* background-color: hsl(0, 100%, 74%); */
+        }
+        head{
+            /* border: 5px solid black; */
+            height: 0;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"); */
+            background-image: url("../assets/images/bg-intro-mobile.png");
+            background-position: center;
+            background-size: cover;
+            background-color: hsl(0, 100%, 74%);
+            margin-top: 0;
+            height: 150vh;
+            width: 100vw;
+            display: grid;
+            /* flex-direction: column; */
+            justify-content: center;
+            grid-template-rows: 1fr 2.9fr;
+    
+    
+            padding-top: 15vh;
+            padding-left: 10vw;
+            padding-right: 10vw ;
+        }
+        .mainBox1{
+            /* border: 5px solid black; */
+            color: white;
+        }
+        #box11{
+            font-size: 2rem;
+            line-height: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bolder;
+        }
+        #box12{
+            font-size: 18px;
+            padding: 5px;
+            text-align: center; 
+        }
+    
+        .mainBox2{
+            height: 75vh;
+            display: grid;
+            justify-content: center;
+            grid-template-rows: 1.2fr 7fr;
+        }
+        #try{
+            font-weight:900;
+            font-size: 18px;
+            /* color: aquamarine; */
+            /* font-size: 25px; */
+        }
+        #box21{
+            color: white;
+            text-align: center;
+            justify-content: center;
+            background-color: hsl(248, 32%, 49%);
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 15px;
+            font-weight:10;
+            border-radius: 20px;
+            margin-bottom: 2vh;
+        }
+        #box22{
+            height: 62vh;
+            background-color: white;
+            /* border: 5px solid black; */
+            padding: 5vw;
+        }
+        .space{
+            margin-bottom: 5vw;
+            height: 8vh;
+            padding-left: 10px;
+        }
+        #sub{
+            color: white;
+            background-color: hsl(154, 59%, 51%);
+            width: 100%;
+            height: 8vh ;
+            border-radius: 20px;
+        }
+    
+        #tac{
+            font-size: 14px;
+            color: hsl(246, 25%, 77%);
+            text-align: center;
+            /* border: 5px solid aqua; */
+        }
+        #ts{
+            font-weight: 700;
+            color: hsl(0, 100%, 74%);
+        }
+    
+    }
