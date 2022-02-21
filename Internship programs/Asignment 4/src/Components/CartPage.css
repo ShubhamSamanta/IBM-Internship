@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.itemcontaoner{
+    /* height: 40vh; */
+    margin: 10vh 5vw ;
+}
+.box{
+    margin-bottom: 20px;
+}
+.name{
+    border: 5px solid aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.pricequant{
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.quantity{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+.quant{
+    width: 20%;
+    text-align: center;
+}
+.price{
+    margin: 0;
+    padding: 0;
+    width:10%;
+    text-align: center;
+    color: red;
+    border: 2px ;
+}
+.total{
+    font-size: 40px;
+    border: 5px solid red;
+    margin: 0 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.amnt{
+    text-align: center;
+}
